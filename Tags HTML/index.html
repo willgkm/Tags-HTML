@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1> Explicações do arquivo</h1>
+        <p>
+            O arquivo não é completo,em caso de duvida ou para uma melhor definição e melhores exemplos sobre as tags, consute o link de apoio
+        </p>
+        <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element">Link de apoio</a>
+
+    <hr>
+    <h1>Separação de conteúdo</h1>
+    
+    
+    <div>
+
+        <p>
+            <address>
+                Tag Address : fornece informações de contato para seu ancestral article ou body mais próximo; no segundo caso, ele se aplica ao documento inteiro.
+            </address>
+        </p>
+
+
+
+        <p>
+            <article>
+                Tag article : representa uma composição independente em um documento, página, aplicação, ou site, ou que é destinado a ser distribuido de forma independente ou reutilizável, por exemplo, em sindicação. Este poderia ser o post de um fórum, um artigo de revista ou jornal, um post de um blog, um comentário enviado por um usuário, um gadget ou widget interativos, ou qualquer outra forma de conteúdo independente.
+            </article>
+        </p>
+
+
+        <p>
+            <aside>
+                Tag Aside : apresenta uma seção de uma página que consiste de conteúdo que é tangencialmente relacionado ao conteúdo do seu entorno, que poderia ser considerado separado do conteúdo. Essas seções são, muitas vezes, representadas como barras laterais. Elas muitas vezes contem explicações laterais, como a definição de um glossário; conteúdo vagamente relacionado, como avisos; a biografia do autor; ou, em aplicações web, informações de perfil ou links de blogs relacionados.
+            </aside>
+        </P>
+
+
+
+        <P>
+            <header>
+                Tag Header :  representa um grupo de suporte introdutório ou navegacional. Pode conter alguns elementos de cabeçalho mas também outros elementos como um logo, seções de cabeçalho, formulário de pesquisa, e outros.
+            </header>
+        </P>
+
+        <p>
+            <footer>
+                Tag Footer :  representa um rodapé para o seu sectioning content (conteúdo de seção) mais próximo ou sectioning root elemento (ou seja, seu parente mais próximo article, aside, nav, section, blockquote, body, details, fieldset, figure, td). Normalmente um rodapé contém informações sobre o autor da seção de dados, direitos autorais ou links para documentos relacionados.
+            </footer>
+        </p>
+    
+        <p>
+            <h1>Tag h1</h1>
+            <h2>Tag h2</h2>
+            <h3>Tag H3</h3>
+            <h4>Tag H4</h4>
+            <h5>Tag H5</h5>
+            <h6>Tag H6</h6>
+        </p>
+    </div>
+
+    <hr>
+    <h1>Conteúdo textual</h1>
+
+
+    <div>
+        <blockquote>
+            Tag blockquote : indica que o texto incluído é uma longa citação. Normalmente, este é processado visualmente pelo recuo (ver Notas sobre como mudá-lo). A URL para a fonte da citação pode ser dada usando o atributo cite, enquanto uma representação de texto da fonte pode ser dada usando o cite elemento.
+        </blockquote>
+
+        <dd>TESTE DD A Tag inicial (dd) é obrigatória.
+            A Tag final (/dd) pode ser omitida se seguida imediatamente por outro elemento dd, ou se o elemento pai não tiver mais conteúdo.
+        </dd>
+
+        <p>
+        Tag div  é um container genérico para conteúdo de fluxo, que de certa forma não representa nada. Ele pode ser utilizado para agrupar elementos para fins de estilos (usando class ou id), ou porque eles compartilham valores de atributos, como lang. Ele deve ser utilizado somente quando não tiver outro elemento de semântica (tal como article ou nav).
+        </p>
+
+    
+
+        <dl>
+            Tag DL O elemento HTML Definition List ( dl ) engloba uma lista de pares de termos e descrições. Um uso comum para este elemento é para implementar um glossário ou exibir metadados(uma lista de pares chave e valor).
+        </dl>
+
+        <dt>
+            Tag DL identifica um termo na lista de definição. Este elemento pode ocorrer somente em um elemento filho de dl. Geralmente seguido por um elemento dd; ou multiplos (dt) na mesma linha indicam vários termos  sendo definidos pelo próximo element dd.
+        </dt>
+
+        <h1>EXEMPLO DE DL DT DD</h1>
+        <dl>
+            <dt>Firefox</dt>
+            <dt>Mozilla Firefox</dt>
+            <dt>Fx</dt>
+            <dd>A free, open source, cross-platform, graphical web browser
+                developed by the Mozilla Corporation and hundreds of volunteers.</dd>
+                
+            <!-- other terms and definitions -->
+        </dl>
+
+    <div>
+
+        <figure>
+            <P>Tag FIGURE representa o conteúdo independente, frequentemente com uma legenda (figcaption), e é normalmente referido como uma única unidade. Enquanto ela está relacionada com o fluxo principal, sua posição é independente do fluxo principal.Normalmente, isso é uma imagem, uma ilustração, um diagrama, um trecho de código ou uma esquema que é referenciado no texto principal, mas que pode ser movido para outra página ou para um apêndice, sem afetar o fluxo principal.</P>
+            <img src="https://img.quizur.com/f/img5f1ca0f3b1ad42.41226236.png?lastEdited=1595711741" alt="uma imagem do sol">
+        </figure>
+        
+        
+        <figure>
+            <p>
+                TagFIGCAPTION o figcaption serve para atribuir uma legenda dentro de uma imagen 
+            </p>
+            <img src="https://img.quizur.com/f/img5f1ca0f3b1ad42.41226236.png?lastEdited=1595711741" alt="uma imagem do sol">
+            <figcaption>Uma imagem do sol</figcaption>
+        </figure>
+    </div>
+
+    <div>
+        <p>
+            Tag HR representa uma quebra temática entre elementos de nível de parágrafo (por exemplo , uma mudança da cena de uma história, ou uma mudança de tema com uma seção). Nas versões anteriores do HTML, representava uma linha horizontal.            Pode continuar sendo exibida como uma linha horizontal nos navegadores, mas agora está definida em termos semânticos, em vez de termos de apresentação.
+
+        </p>
+        <p> <h4>Exemplo</h4></p> 
+        <hr>
+    </div>
+
+    <Div>
+        <p>Tag li (ou a Lista dos Itens de um elemento HTML) é usado para representar um item que faz parte de uma lista. Este item deve estar contido em um elemento pai: uma lista ordenada (ol), uma lista desordenada (ul), ou um menu (menu) e representa uma única entidade dessa lista. Em menus e listas desordenadas a relação de itens é exibida, normalmente, usando pontos de marcação (as bolinhas). Em listas ordenadas eles são, comumente, mostrados com algum contador ascendente - como um número, ou letra - à sua esquerda.</p>
+        <p></p>
+        <p>exemplo li</p>
+            <li>primeiro item</li>
+            <li>segundo item</li>
+            <li>terceiro item</li>
+        <p> Tag ol (ou Elemento HTML de lista ordenada) representa uma lista de itens ordenados. De forma característica esses itens ordenados em uma lista são mostrados com uma contagem que os precede, que pode ser de qualquer tipo, como numerais, letras, algarismos romanos, ou simples símbolos. Esse modelo numerado não é definido na descrição html da página, mas na folha de estilos CSS associada, pela propriedade list-style-type. </p>
+        <p></p>
+        <p>Exemplo ol</p>
+            <ol>
+                <li>primeiro item</li>
+                <li>segundo item</li>
+                <li>terceiro item</li>
+            </ol>
+        <p>Tag ul (ou elemento HTML de Lista desordenada) representa uma lista de itens sem ordem rígida, isto é, uma coleção de itens que não trazem uma ordenação numérica e as suas posições, nessa lista, são irrelevantes. Caracteristicamente, os itens em uma lista desordenada são exibidos com um marcador que pode ter várias formas, como um ponto, um círculo, ou um quadrado. O tipo de marcador não é definido na descrição HTML da página, mas na CSS associada, utilizando a propriedade list-style-type</p>
+        <p></p>
+        <p>Exemplo ul</p>
+            <ul>
+                <li>primeiro item</li>
+                <li>segundo item</li>
+                <li>terceiro item</li>
+            </ul>
+        
+    </Div>
+
+    <div>
+        <p>Tag P  representa um parágrafo. Em mídias visuais, parágrafos são representados como blocos indentados de texto com a primeira letra avançada e separados por linhas em branco. Já em HTML, parágrafos são usados para agrupar conteúdos relacionados de qualquer tipo, como imagens e campos de um formulário.
+
+            Parágrafos são Elementos block-level, e fecharão automaticamente caso outro Elemento block-level inicie antes da tag de fechamento  Veja "Omissão de tag" abaixo.
+
+        <p>Tag pre</p>
+        <pre>
+            é a tag utilizada para representar texto pré-formatado. Um texto dentro desse elemento é tipicamente exibido em uma fonte não proporcional da mesma maneira em que o texto original foi disposto no arquivo. Espaços em branco são mantidos no texto da mesma forma em que este foi digitado. 
+        </pre>
+    </div>
+
+
+    <hr>
+    <h1>Semânticas textuais inline</h1>
+
+
+    <div>
+        <p>
+            Tag a : em HTML (ou elemento âncora), com o atributo href cria-se um hiperligação nas páginas web, arquivos, endereços de emails, ligações na mesma página ou endereços na URL.
+            <p>
+                <a href="">Exemplo de uma Tag a</a>
+            </p>
+        </p>
+        
+
+        <p>
+                Tag abbr :em HTML (ou elemento âncora), com o atributo href cria-se um hiperligação nas páginas web, arquivos, endereços de emails, ligações na mesma página ou endereços na URL.
+            <p>
+                
+                <abbr title="">Exemplo de uma Tag abbr</abbr>
+            </p>
+        </p>
+
+
+        <p>
+            Tag b :
+            <b>
+                representa um intervalo de texto estilísticamente diferente do texto normal, sem transmitir qualquer importância ou relevância. Ele é geralmente usado para destacar palavras-chaves em um resumo, nomes de produtos em um comentário ou outros vãos de texto cuja a apresentação típica seria negrito. Outro exemplo de seu uso é como marcação da frase principal de cada paragrafo de um artigo.
+            </b>
+            
+        </p>
+
+        <p>
+            Tag bdi : 
+            <bdi>
+                Este elemento é útil ao incorporar o texto com uma direção desconhecida, de um banco de dados por exemplo, no interior do texto com uma direção fixa.
+            </bdi>
+            
+        </p>
+
+        <p>
+            Tag bdo : (bidirectional override) é usado para substituir a direcionalidade atual do texto. Isso faz com que a direcionalidade dos personagens seja ignorada em favor da direcionalidade especificada.
+            <p>
+                <bdo dir="ltr">Exemplo de uma Tag bdo</bdo>
+            </p>
+            <p>
+                <bdo dir="rtl">Exemplo de uma Tag bdo</bdo>
+            </p>
+        </p>
+
+        <p>
+            Tag br : O elemento HTML quebra-de-linha br produz uma quebra de linha em um texto (carriage-return).É útil para escrever poemas ou um endereço, onde a divisão de linha é significante. 
+        </p>
+
+        <p>
+            Tag cite :
+            <cite>
+                representa uma referência a um trabalho artístico. Deve incluir o título do trabalho ou uma URL de referência, que pode ser em uma forma abreviada de acordo com as convenções usadas para a adição dos metadados de citação.
+            </cite>
+        </p>
+
+        <p>
+            Tag code : 
+            <code>
+                apresenta seu conteúdo estilizado de maneira a indicar que o texto é um pequeno fragmento de código. Por padrão
+            </code>
+        </p>
+
+        <p>
+            Tag data : links a given content with a machine-readable translation. If the content is time- or date-related, the time must be used.
+        </p>
+
+        <p>
+            Tag dfn :
+            <dfn>
+                representa uma instância de definição de um termo. 
+            </dfn>
+        </p>
+
+        <p>
+            Tag em : 
+            <em>
+                marca o texto que tem ênfase. O elemento <em> pode ser aninhado, com cada nível de aninhamento indicando um grau maior de ênfase
+            </em>
+        </p>
+
+        <p>
+            Tag i :
+            <i>
+                representa uma parte do texto que é destacada do restante por algum motivo, por exemplo, termos técnicos, expressões de outros idiomas ou pensamentos de personagens fictícios. Normalmente, é apresentado com o uso do tipo "itálico". 
+            </i>
+        </p>
+
+        <p>
+            Tag Mark :
+            <mark>
+                representa um trecho de destaque em um texto, por exemplo, uma sequência de texto marcado como referência, devido à sua relevância em um contexto particular. Por Exemplo, pode ser utilizado em uma página que mostra os resultados de uma busca onde todas as instâncias da palavra pesquisadas receberam destaque.
+            </mark>
+        </p>
+
+        <p>
+            Tag q :
+            <q>
+                Este elemento inclui os atributos globais.
+            </q>
+        </p>
+
+        <p>
+            Tag rt :
+            <rt>
+                embraces pronunciation of character presented in a ruby annotations, which are for showing pronunciation of East Asian characters and the (rt) element is used inside of ruby element. 
+            </rt>
+        </p>
+
+        <p>
+            Tag ruby :
+            <ruby>
+                representa uma anotação ruby. Anotações ruby são para mostrar a pronúncia de caracteres do Leste Asiático
+            </ruby> 
+        </p>
+
+        <p>
+            Tag span :
+            <span>
+                é um conteiner generico em linha para conteúdo fraseado , que não representa nada por natureza. Ele pode ser usado para agrupar elementos para fins de estilo (usando os atributos class ou id ), ou para compartilhar valores de atributos como lang. Ele deve ser usado somente quando nenhum outro elemento semântico for apropriado. (span) é muito parecido com o elemento div , entretando  div é um elemento de nível de bloco enquanto (span) é um elemento em linha.
+            </span>
+        </p>
+
+        <p>
+            Tag strong :
+            <strong>
+                Este elemento inclui apenas os atributos globais. 
+            </strong>
+        </p>
+
+        <p>
+            Tag time : representa o tempo tanto no formato de 24 horas ou como uma data precisa no calendário Gregoriano (com informações opcionais de tempo e fuso horário)
+            <time>
+                12:00
+            </time>
+        </p>
+
+        <p>
+            Tag var : 
+            <var>
+                representa uma variável em uma expressão matemática ou um contexto de programação.
+            </var>
+        </p>
+    </div>
+    
+    <hr>
+    <h1>Imagem e multimídia</h1>
+        
+    <div>
+        <p>
+            Tag area : elemento define uma região hot-spot em uma imagem, e, opcionalmente, associa-lo com um Hyperlink. Este elemento é usado somente dentro de um map elemento.
+        </p>
+
+        <p>
+            Tag audio : O elemento audio é utilizado para embutir conteúdo de som em um documento HTML ou XHTML.O elemento audio foi adicionado como parte do HTML5.
+        </p>
+
+        <p> 
+            Tag img : representa a inserção de imagem no documento, sendo implementado também pelo HTML5 para uma melhor experiência com o elemento figure e figcaption
+        </p>
+
+        <p>
+            Tag map : é usado com os elementos area para definir um mapa de imagem (a área clicável do link).
+        </p>
+
+        <p>
+            Tag Track : é usado como filho dos elementos de mídiaaudio e video. Ele permite que você especifique faixas de texto temporizadas (ou dados baseados em tempo), por exemplo, para lidar automaticamente com legendas. As faixas são formatadas em WebVTT format (arquivos .vtt) — Web Video Text Tracks or Timed Text Markup Language (TTML).
+        </p>
+
+    </div>
+
+
+    <div>
+        <p>
+            Tag embed : incorpora conteúdo externo no ponto especificado no documento. Este conteúdo é fornecido por um aplicativo externo ou outra fonte de conteúdo interativo, como um plug-in de navegador.
+        </p>
+
+        <p>
+            Tag iframe : representa um contexto de navegação aninhado, efetivamente incorporando outra página HTML para a página atual. Em HTML 4.01, um documento pode conter uma cabeça e um corpo ou uma cabeça e um conjunto de quadros, mas não tanto um corpo e um conjunto de quadros. No entanto, um iframe pode ser usado dentro de um corpo de documento normal. Cada contexto de navegação tem sua própria história de sessão e o documento ativo. O contexto de navegação que contém o conteúdo incorporado é chamado o pai de contexto de navegação. O contexto de navegação de nível superior (que não tem um pai) normalmente é a janela do navegador.
+        </p>
+        
+        <p>
+            Tag Picture : é um container usado para especificar múltiplos elementos source para um elemento específico img contido nele. O navegador irá escolher a imagem mais adequada de acordo com o layout atual da página, caracteristicas do dispositivo em que será exibido (p.e. um dispositivo normal ou um hiDPI), e a habilidade do navegador de renderizar um certo tipo de imagem (p.e., envie uma imagem WebP para os navegadores baseados no Chromium ou PNG para navegadores não-Chromium); se não houver correspondência entre os elementos source, o arquivo especificado pelo elemento "img" será selecionado. A imagem selecionada é então exibida no espaço ocupado pelo elemento "img".
+        </p>
+
+        <p>
+            Tag Source : O elemento source é utilizado para especificar múltiplos recursos de mídia de elementos picture,  audio ou video em HTML5. É um elemento vazio. É normalmente usado para disponibilizar multiple formats supported by different browsers.
+        </p>
+
+    </div>
+    
+    <hr>
+    <h1>Demarcações edições</h1>
+
+    <div>
+        <p>
+            Tag del : representa uma parte do texto que foi excluída de um documento. Este elemento é (não necessariamente) renderizado pelos navegadores com uma linha entre o texto.
+            <del>This text has been deleted</del>
+        </p>
+
+        <p>
+            Tag ins : HTML represents a range of text that has been added to a document.
+            <ins>This text has been inserted</ins>
+        </p>
+    </div>
+
+    <hr>
+    <h1>Conteúdo tabulado</h1>
+
+    <div>
+        <p>
+            Tag caption :  representa o título de uma tabela. Embora ele seja sempre o primeiro filho de um table, seu estilo, usando CSS pode colocar ele em qualquer lugar relativo a tabela.
+        </p>
+        <p>
+            Tag col : define uma tabela contendo colunas e sendo utilizada para definições semanticas em todas as colunas comuns. É normalmente encontrada dentro do elemento("colgroup")}} .
+            Este elemento permite a estilização de colunas utilizando-se do CSS, porém apenas um numero pequeno de atributos que terão efeito dentro das colunas 
+        </p>
+        <p>
+            Tag table : representa dados em duas dimensões ou mais. 
+        </p>
+        <p>
+            Tag tfoot :  que define um conjunto de linhas as quais farão parte do rodapé de uma tabela HTML
+        </p>
+        <p>
+            Tag th : define uma célula cabeçalho do grupo de células de sua tabela. A exatidão natural deste grupo é denifida pelos atributos scope e headers.
+        </p>
+
+        
+        <p>Table with thead, tfoot, and tbody</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Header content 1</th>
+                    <th>Header content 2</th>
+                </tr>
+            </thead>
+            <tfoot>
+                <tr>
+                    <td>Footer content 1</td>
+                    <td>Footer content 2</td>
+                </tr>
+            </tfoot>
+            <tbody>
+                <tr>
+                    <td>Body content 1</td>
+                    <td>Body content 2</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <p>Table with colgroup and col</p>
+        <table>
+            <colgroup>
+                <col class="column1">
+                <col class="columns2plus3" span="2">
+            </colgroup>
+            <tr>
+                <th>Lime</th>
+                <th>Lemon</th>
+                <th>Orange</th>
+            </tr>
+            <tr>
+                <td>Green</td>
+                <td>Yellow</td>
+                <td>Orange</td>
+            </tr>
+        </table>
+
+    </div>
+    
+    <hr>
+    <h1>Formularios</h1>    
+
+    <div>
+
+        <p>
+            Tag button : 
+            <button>
+                representa um botão clicável.
+            </button>
+        </p>
+
+        <p>
+            Tag datalist :  contém um conjunto de elementos option que representam as opções possíveis para o valor de outros controles.
+            <h4>Exemplo de uma teg datalist</h4>
+            <input list="browsers" />
+            <datalist id="browsers">
+                <option value="Chrome">
+                <option value="Firefox">
+                <option value="Internet Explorer">
+                <option value="Opera">
+                <option value="Safari">
+            </datalist>
+        </p>
+
+        <p>
+            Tag fieldset :  é usado para agrupar elementos, assim como labels (label), dentro de um formulário web.
+        </p>
+
+        <p>
+            Tag form :  representa uma seção de um documento que contém controles interativos que permitem ao usuário submeter informação a um determinado servidor web.
+        </p>
+
+        <p>
+            Tag input :  é usado para criar controles interativos para formulários baseados na web para receber dados do usuário. A semântica de um "input" varia consideravelmente dependendo do valor de seu atributo type.
+            <h4>Exemplo de uma tag input</h4>
+            <input type="text" name="input" value="Digite aqui">
+        </p>
+
+        <p>
+            Tag label : representa uma legenda para um item em uma interface de usuário. Ele pode estar associado com um elemento de controle, colocando este dentro do elemento label, ou usando o atributo for. Tal controle é chamado o controle etiquetado do elemento etiqueta. Um input pode ser associado a diversas etiquetas ("label"s).
+        </p>
+
+        <p>
+            Tag legend : representa um rótulo para o conteúdo do seu ancestral fieldset.
+        </p>
+
+        <p>
+            Tag meter : pode representar um valor escalar dentro de um intervalo conhecido ou um valor fracionário.
+            <h4>Exemplo de uma tag meter</h4>
+            <p>Aqueça o forno para <meter min="200" max="500" value="350">350 graus</meter>.</p>
+            <p>Ele recebeu <meter low="69" high="80" max="100" value="84">B</meter> no exame.</p>
+        </p>
+        
+        <div>
+
+            <p>
+                Tag ortgroup : Em um Formulário Web, o elemento HTML "optgroup" cria um agrupamento de opções dentro do elemento select.
+            </p>
+            
+            <p>
+                Tag option :  Em um formulário Web, o elemento HTML "option" é usado para criar um controle que representa um item dentro de um elemento HTML5 select, optgroup ou datalist.
+            </p>
+            
+            <p>
+                Tag Select : O elemento HTML select ("select") representa um controle que apresenta um menu de opções. As opções dentro do menu são representadas pelo elemento option, que podem ser agrupados por elementos optgroup. As opções podem ser pré-selecionadas para o usuário.
+            </p>
+            
+            <h4>Exemplo de uma Tag ortgroup, Tag option e Tag Select</h4>
+            <select>
+                <optgroup label="Grupo 1">
+                    <option>Opção 1.1</option>
+                </optgroup>
+                <optgroup label="Grupo 2">
+                    <option>Opção 2.1</option>
+                    <option>Opção 2.2</option>
+                </optgroup>
+                <optgroup label="Grupo 3" disabled>
+                    <option>Opção 3.1</option>
+                    <option>Opção 3.2</option>
+                    <option>Opção 3.3</option>
+                </optgroup>
+            </select>
+        </div>
+        
+        
+        <p>
+            Tag output :    O elemento de saída ("output") é um elemento no qual um site ou aplicativo pode injetar os resultados de um cálculo ou o resultado de uma ação do usuário.
+
+            <h4>Exemplod de uma Tag output com uma Tag input</h4>
+
+            <form oninput="result.value=parseInt(a.value)+parseInt(b.value)">
+                0<input type="range" name="b" value="50" />100 +<input type="number" name="a" value="10" /> =
+                <output name="result"></output>
+            </form>
+        </p>
+        
+        <p>
+            Tag progress: é usado para visualizar o progresso de uma tarefa. Embora as especifidades de como é mostrado ficam a cargo do desenvolvedor, tipicamente, é mostrado como uma barra de progresso. 
+            <progress value="70" max="100">70 %</progress>
+        </p>
+
+        <p>
+            Tag textarea : representa um controle de edição para uma caixa de texto, útil quando você quer permitir ao usuário informar um texto  extenso em formato livre, como um comentário ou formulário de retorno. 
+        </p>
+
+    </div>
+
+    <hr>
+    <h1>Elementos interativos</h1>
+
+    <div>
+        <p>
+            Tag details : O elemento HTML details ("details") é usado como uma ferramenta de onde o usuário irá obter informações adicionais.
+
+            <h4>Exemplo de uma Tag details</h4>
+            <details>
+                <summary>Alguns detalhes</summary>
+                <p>Mais informações sobre os detalhes.</p>
+            </details>
+        </p>
+
+        <p>
+            Tag summary : é utilizado como um sumário ou legenda para o conteúdo de um elemento details
+        </p>
+
+        <p>
+            Tag dialog : representa uma caixa de diálogo ou outro componente interativo, tal como um inspetor ou janela.
+        </p>
+
+    </div>
+
+    <hr>
+    <h1>Componentes Web</h1>
+
+    <div>
+        <p>
+            Tag content : obsolete part of the Web Components suite of technologies—was used inside of Shadow DOM as an insertion point, and wasn't meant to be used in ordinary HTML.
+        </p>
+
+        <p>
+            Tag tamplate : é um mecanismo para encapsular um conteúdo do lado do cliente que não é renderizado quando a página é carregada, mas que pode ser instanciado posteriormente em tempo de execução usando JavaScript.
+        </p>
+
+    </div>
+
+</body>
+
+</html>
